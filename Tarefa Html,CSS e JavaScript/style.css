@@ -1,12 +1,25 @@
 /* Estilos comuns para todas as páginas */
 body {
-
-    color: #333;
+  background: image();
+    background-color: #333;
+    color: white;
     font-family: Arial, sans-serif;
   }
+body h1{
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(202, 170, 64);
+
+}
   
+body p{
+   text-align: center;
+   
+
+}
   nav a {
-    margin-right: 10px;
+    margin: 120px;
+    margin-right: -10px;
     text-decoration: none;
     color: darkkhaki;
   }
@@ -14,6 +27,8 @@ body {
   nav a:hover {
     color: #ff00ff;
   }
+  
+  
 
   #imgpos {
     position: absolute; 
